@@ -25,4 +25,4 @@ COPY tasksB.py /app
 RUN pip install --no-cache-dir fastapi uvicorn
 
 # Explicitly set the correct binary path and start the application
-CMD ["/root/.local/bin/uv", "run", "app.py"
+CMD ["/root/.local/bin/uv", "run", "app.py"]
